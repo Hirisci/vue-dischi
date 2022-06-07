@@ -13,4 +13,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+header {
+  background-color: var(--clr-bg-0);
+  height: var(--hgt-header);
+  padding: var(--padding-md);
+}
 </style>
