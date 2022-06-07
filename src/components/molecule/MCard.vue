@@ -21,7 +21,8 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  @include flex();
+  display: flex;
+  flex-direction: column;
   padding: var(--padding-md);
   background-color: var(--clr-bg-0);
   justify-content: space-between;
