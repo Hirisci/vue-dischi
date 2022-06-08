@@ -1,13 +1,15 @@
 <template>
   <header>
     <ALogo />
+    <MSelect />
   </header>
 </template>
 
 <script>
 import ALogo from "../atom/ALogo.vue";
+import MSelect from "../molecule/MSelect.vue";
 export default {
-  components: { ALogo },
+  components: { ALogo, MSelect },
   name: "OHeader",
 };
 </script>
