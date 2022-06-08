@@ -16,6 +16,8 @@ export default {
 
 <style lang="scss" scoped>
 header {
+  display: flex;
+  justify-content: space-between;
   background-color: var(--clr-bg-0);
   height: var(--hgt-header);
   padding: var(--padding-md);
